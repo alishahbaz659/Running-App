@@ -11,7 +11,6 @@ import com.androiddevs.runningappyt.db.RunDao;
 import com.androiddevs.runningappyt.db.RunningDatabase;
 import com.androiddevs.runningappyt.repositories.MainRepository;
 import com.androiddevs.runningappyt.ui.MainActivity;
-import com.androiddevs.runningappyt.ui.MainActivity_MembersInjector;
 import com.androiddevs.runningappyt.ui.fragments.RunFragment;
 import com.androiddevs.runningappyt.ui.fragments.StatisticsFragment;
 import com.androiddevs.runningappyt.ui.fragments.TrackingFragment;
@@ -400,7 +399,6 @@ public final class DaggerBaseApplication_HiltComponents_SingletonC extends BaseA
 
     @Override
     public void injectMainActivity(MainActivity mainActivity) {
-      injectMainActivity2(mainActivity);
     }
 
     @Override
@@ -426,11 +424,6 @@ public final class DaggerBaseApplication_HiltComponents_SingletonC extends BaseA
     @Override
     public ViewComponentBuilder viewComponentBuilder() {
       return new ViewCBuilder(singletonC, activityRetainedCImpl, activityCImpl);
-    }
-
-    private MainActivity injectMainActivity2(MainActivity instance) {
-      MainActivity_MembersInjector.injectRunDao(instance, singletonC.provideRunDaoProvider.get());
-      return instance;
     }
   }
 
