@@ -156,12 +156,12 @@ MERGED from [androidx.versionedparcelable:versionedparcelable:1.1.0] C:\Users\Al
 		ADDED from C:\Users\Alpha\Downloads\Running App\app\src\main\AndroidManifest.xml:17:9-40
 	android:name
 		ADDED from C:\Users\Alpha\Downloads\Running App\app\src\main\AndroidManifest.xml:11:9-43
-activity#com.androiddevs.runningappyt.MainActivity
+activity#com.androiddevs.runningappyt.ui.MainActivity
 ADDED from C:\Users\Alpha\Downloads\Running App\app\src\main\AndroidManifest.xml:18:9-24:20
 	android:launchMode
-		ADDED from C:\Users\Alpha\Downloads\Running App\app\src\main\AndroidManifest.xml:18:48-79
+		ADDED from C:\Users\Alpha\Downloads\Running App\app\src\main\AndroidManifest.xml:18:51-82
 	android:name
-		ADDED from C:\Users\Alpha\Downloads\Running App\app\src\main\AndroidManifest.xml:18:19-47
+		ADDED from C:\Users\Alpha\Downloads\Running App\app\src\main\AndroidManifest.xml:18:19-50
 intent-filter#action:name:android.intent.action.MAIN+category:name:android.intent.category.LAUNCHER
 ADDED from C:\Users\Alpha\Downloads\Running App\app\src\main\AndroidManifest.xml:19:13-23:29
 action#android.intent.action.MAIN

@@ -1,6 +1,11 @@
 package com.androiddevs.runningappyt.di;
 
-import com.androiddevs.runningappyt.MainActivity_GeneratedInjector;
+import com.androiddevs.runningappyt.ui.MainActivity_GeneratedInjector;
+import com.androiddevs.runningappyt.ui.fragments.RunFragment_GeneratedInjector;
+import com.androiddevs.runningappyt.ui.fragments.StatisticsFragment_GeneratedInjector;
+import com.androiddevs.runningappyt.ui.fragments.TrackingFragment_GeneratedInjector;
+import com.androiddevs.runningappyt.ui.viewModels.MainViewModel_HiltModules;
+import com.androiddevs.runningappyt.ui.viewModels.StatisticsViewModel_HiltModules;
 import dagger.Binds;
 import dagger.Component;
 import dagger.Module;
@@ -140,7 +145,9 @@ public final class BaseApplication_HiltComponents {
       modules = {
           ActivityCBuilderModule.class,
           ViewModelCBuilderModule.class,
-          HiltWrapper_ActivityRetainedComponentManager_LifecycleModule.class
+          HiltWrapper_ActivityRetainedComponentManager_LifecycleModule.class,
+          MainViewModel_HiltModules.KeyModule.class,
+          StatisticsViewModel_HiltModules.KeyModule.class
       }
   )
   @ActivityRetainedScoped
@@ -175,7 +182,11 @@ public final class BaseApplication_HiltComponents {
   }
 
   @Subcomponent(
-      modules = HiltWrapper_HiltViewModelFactory_ViewModelModule.class
+      modules = {
+          HiltWrapper_HiltViewModelFactory_ViewModelModule.class,
+          MainViewModel_HiltModules.BindsModule.class,
+          StatisticsViewModel_HiltModules.BindsModule.class
+      }
   )
   @ViewModelScoped
   public abstract static class ViewModelC implements ViewModelComponent,
@@ -199,7 +210,10 @@ public final class BaseApplication_HiltComponents {
       modules = ViewWithFragmentCBuilderModule.class
   )
   @FragmentScoped
-  public abstract static class FragmentC implements FragmentComponent,
+  public abstract static class FragmentC implements RunFragment_GeneratedInjector,
+      StatisticsFragment_GeneratedInjector,
+      TrackingFragment_GeneratedInjector,
+      FragmentComponent,
       DefaultViewModelFactories.FragmentEntryPoint,
       ViewComponentManager.ViewWithFragmentComponentBuilderEntryPoint,
       GeneratedComponent {
