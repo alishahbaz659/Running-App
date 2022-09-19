@@ -35,8 +35,8 @@ public abstract class Hilt_TrackingFragment extends Fragment implements Generate
     super();
   }
 
-  Hilt_TrackingFragment(int contentLayoutId) {
-    super(contentLayoutId);
+  Hilt_TrackingFragment(int arg0) {
+    super(arg0);
   }
 
   @Override

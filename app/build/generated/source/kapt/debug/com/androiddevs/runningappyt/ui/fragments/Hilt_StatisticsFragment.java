@@ -35,8 +35,8 @@ public abstract class Hilt_StatisticsFragment extends Fragment implements Genera
     super();
   }
 
-  Hilt_StatisticsFragment(int contentLayoutId) {
-    super(contentLayoutId);
+  Hilt_StatisticsFragment(int arg0) {
+    super(arg0);
   }
 
   @Override

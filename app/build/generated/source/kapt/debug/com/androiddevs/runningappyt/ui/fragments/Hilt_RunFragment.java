@@ -35,8 +35,8 @@ public abstract class Hilt_RunFragment extends Fragment implements GeneratedComp
     super();
   }
 
-  Hilt_RunFragment(int contentLayoutId) {
-    super(contentLayoutId);
+  Hilt_RunFragment(int arg0) {
+    super(arg0);
   }
 
   @Override

@@ -18,151 +18,51 @@
       </configuration>
     </facet>
     <facet type="kotlin-language" name="Kotlin">
-      <configuration version="5" platform="JVM 1.8" allPlatforms="JVM [1.8]" useProjectSettings="false">
+      <configuration version="4" platform="JVM 1.8" allPlatforms="JVM [1.8]" useProjectSettings="false">
         <compilerSettings>
           <option name="additionalArguments" value="-Xallow-no-source-files" />
         </compilerSettings>
         <compilerArguments>
-          <flagArguments>
-            <flagArg name="noReflect" arg="true" />
-            <flagArg name="noStdlib" arg="true" />
-          </flagArguments>
-          <stringArguments>
-            <stringArg name="classpath">
-              <args>
-                <arg>$MODULE_DIR$/../../../app/build/intermediates/compile_and_runtime_not_namespaced_r_class_jar/debug/R.jar</arg>
-                <arg>$USER_HOME$/.gradle/caches/transforms-2/files-2.1/87d101bd19140f119055dba140c5c208/jetified-dagger-android-support-2.23.2-api.jar</arg>
-                <arg>$USER_HOME$/.gradle/caches/transforms-2/files-2.1/fc52332a908bc7de5538b6395c25ce29/jetified-dagger-android-2.35.1-api.jar</arg>
-                <arg>$USER_HOME$/.gradle/caches/transforms-2/files-2.1/bab894f7df04acf578192dbb04f74779/jetified-hilt-android-2.38.1-api.jar</arg>
-                <arg>$USER_HOME$/.gradle/caches/transforms-2/files-2.1/c15629aef36fb3083b5dd495fb69c123/jetified-hilt-core-2.38.1.jar</arg>
-                <arg>$USER_HOME$/.gradle/caches/transforms-2/files-2.1/78f8f61c9ac4b89e83759922c6787e93/jetified-dagger-2.38.1.jar</arg>
-                <arg>$USER_HOME$/.gradle/caches/transforms-2/files-2.1/6373a9f51016a9ea20247c54e3b62b31/jetified-javax.inject-1.jar</arg>
-                <arg>$USER_HOME$/.gradle/caches/transforms-2/files-2.1/53971186fe13b4089a22866b1c3a0e01/jetified-dagger-lint-aar-2.38.1-api.jar</arg>
-                <arg>$USER_HOME$/.gradle/caches/transforms-2/files-2.1/61753431cd3f3c113b323960b8d49603/navigation-ui-ktx-2.2.2-api.jar</arg>
-                <arg>$USER_HOME$/.gradle/caches/transforms-2/files-2.1/d10542f9526674896121c9acbba439b2/navigation-ui-2.2.2-api.jar</arg>
-                <arg>$USER_HOME$/.gradle/caches/transforms-2/files-2.1/b23bba3c9b5a5a5d3b43dd8ffbb28b71/material-1.2.0-alpha06-api.jar</arg>
-                <arg>$USER_HOME$/.gradle/caches/transforms-2/files-2.1/a0e8a77c5294e157114b1e88208a1f5b/jetified-easypermissions-3.0.0-api.jar</arg>
-                <arg>$USER_HOME$/.gradle/caches/transforms-2/files-2.1/d035a1734f44e08650655c5cf0ec3fe8/appcompat-1.1.0-api.jar</arg>
-                <arg>$USER_HOME$/.gradle/caches/transforms-2/files-2.1/a736f7a941cf9530b12dceec361db64b/navigation-fragment-ktx-2.2.2-api.jar</arg>
-                <arg>$USER_HOME$/.gradle/caches/transforms-2/files-2.1/1bc04d2892a70b9cc42aad6b36e9e55c/navigation-runtime-ktx-2.2.2-api.jar</arg>
-                <arg>$USER_HOME$/.gradle/caches/transforms-2/files-2.1/19c197ccf8eac3a08e18cc06bce9c4f0/jetified-fragment-ktx-1.2.4-api.jar</arg>
-                <arg>$USER_HOME$/.gradle/caches/transforms-2/files-2.1/a7b3527dd1ad1626a550e9e02e91e175/jetified-activity-ktx-1.1.0-api.jar</arg>
-                <arg>$USER_HOME$/.gradle/caches/transforms-2/files-2.1/857d62822826460b683fc5118366023f/jetified-core-ktx-1.2.0-api.jar</arg>
-                <arg>$USER_HOME$/.gradle/caches/transforms-2/files-2.1/853dbfc6882e7c8f2676c7909ff4354f/jetified-lifecycle-runtime-ktx-2.2.0-api.jar</arg>
-                <arg>$USER_HOME$/.gradle/caches/transforms-2/files-2.1/67a5f980059a3c6a9a9d3055d9010d4b/jetified-glide-4.11.0-api.jar</arg>
-                <arg>$USER_HOME$/.gradle/caches/transforms-2/files-2.1/4509673e939648baf4dc81bae7e883f4/jetified-play-services-maps-17.0.0-api.jar</arg>
-                <arg>$USER_HOME$/.gradle/caches/transforms-2/files-2.1/e74a4877395f2bf8284ac37b9b939076/lifecycle-extensions-2.0.0-api.jar</arg>
-                <arg>$USER_HOME$/.gradle/caches/transforms-2/files-2.1/dacab798f2dfcd1cef26e57bed9158ae/jetified-viewpager2-1.0.0-api.jar</arg>
-                <arg>$USER_HOME$/.gradle/caches/transforms-2/files-2.1/8db5efafdd7ada23786b9040e1ebe581/navigation-fragment-2.2.2-api.jar</arg>
-                <arg>$USER_HOME$/.gradle/caches/transforms-2/files-2.1/ccff7c6201d9e6b683ddcd39080bc9eb/jetified-play-services-location-17.0.0-api.jar</arg>
-                <arg>$USER_HOME$/.gradle/caches/transforms-2/files-2.1/15563295fb61d19416486a64247b370d/jetified-play-services-base-17.0.0-api.jar</arg>
-                <arg>$USER_HOME$/.gradle/caches/transforms-2/files-2.1/0d45226a6e345ef00a498ab8d01c4e7f/jetified-play-services-places-placereport-17.0.0-api.jar</arg>
-                <arg>$USER_HOME$/.gradle/caches/transforms-2/files-2.1/297bd0a8a8a1e7217145625949e8dde9/jetified-play-services-tasks-17.0.0-api.jar</arg>
-                <arg>$USER_HOME$/.gradle/caches/transforms-2/files-2.1/9db656bcf3cf0fbd943678d6b7f934a9/jetified-play-services-basement-17.0.0-api.jar</arg>
-                <arg>$USER_HOME$/.gradle/caches/transforms-2/files-2.1/e263b471ef48c46faea7e83b2b88374d/fragment-1.3.2-api.jar</arg>
-                <arg>$USER_HOME$/.gradle/caches/transforms-2/files-2.1/b142dd978ad6a48c71d8b23a2aa38265/jetified-appcompat-resources-1.1.0-api.jar</arg>
-                <arg>$USER_HOME$/.gradle/caches/transforms-2/files-2.1/cb082c3549e59c5bda70e0e4f567124b/drawerlayout-1.0.0-api.jar</arg>
-                <arg>$USER_HOME$/.gradle/caches/transforms-2/files-2.1/a9c707154f12b295aa1b853c5044e66f/coordinatorlayout-1.1.0-api.jar</arg>
-                <arg>$USER_HOME$/.gradle/caches/transforms-2/files-2.1/c5bfab9f8d4659a11ad3eb2f75ecce28/recyclerview-1.1.0-api.jar</arg>
-                <arg>$USER_HOME$/.gradle/caches/transforms-2/files-2.1/bcd5d52e4efbf2d8aa819d97f0b07540/transition-1.2.0-api.jar</arg>
-                <arg>$USER_HOME$/.gradle/caches/transforms-2/files-2.1/1ce881e73638c3807852fbb716b5acf3/vectordrawable-animated-1.1.0-api.jar</arg>
-                <arg>$USER_HOME$/.gradle/caches/transforms-2/files-2.1/15ed49bd0aa79b703fcd84eb5c458460/vectordrawable-1.1.0-api.jar</arg>
-                <arg>$USER_HOME$/.gradle/caches/transforms-2/files-2.1/2e21b8340139e670079f64bff2edcf92/navigation-runtime-2.2.2-api.jar</arg>
-                <arg>$USER_HOME$/.gradle/caches/transforms-2/files-2.1/b3b8c3c235748490628155358779f7dd/jetified-activity-1.2.2-api.jar</arg>
-                <arg>$USER_HOME$/.gradle/caches/transforms-2/files-2.1/bee0cf26e7e5e34c7e7e2bfe274ea4c6/viewpager-1.0.0-api.jar</arg>
-                <arg>$USER_HOME$/.gradle/caches/transforms-2/files-2.1/48bdade33a94007c488461c15fcebf37/loader-1.0.0-api.jar</arg>
-                <arg>$USER_HOME$/.gradle/caches/transforms-2/files-2.1/a7415bc50665c7702e097d2e9651e9c4/customview-1.0.0-api.jar</arg>
-                <arg>$USER_HOME$/.gradle/caches/transforms-2/files-2.1/0ceca827a0d2701721c88c29e93414a7/navigation-common-ktx-2.2.2-api.jar</arg>
-                <arg>$USER_HOME$/.gradle/caches/transforms-2/files-2.1/b64409399a0fcaa492841676df4d022f/navigation-common-2.2.2-api.jar</arg>
-                <arg>$USER_HOME$/.gradle/caches/transforms-2/files-2.1/ee3c1b76dddcc13d22fdde95f709f070/core-1.2.0-api.jar</arg>
-                <arg>$USER_HOME$/.gradle/caches/transforms-2/files-2.1/fe74d91190ca46a137d8585181d64dbb/cursoradapter-1.0.0-api.jar</arg>
-                <arg>$USER_HOME$/.gradle/caches/transforms-2/files-2.1/39c8af5a09933fa670f665e69e58f80f/versionedparcelable-1.1.0-api.jar</arg>
-                <arg>$USER_HOME$/.gradle/caches/transforms-2/files-2.1/c612e45efcf66d4e44d54cfbf3083891/jetified-collection-ktx-1.1.0.jar</arg>
-                <arg>$USER_HOME$/.gradle/caches/modules-2/files-2.1/androidx.collection/collection/1.1.0/1f27220b47669781457de0d600849a5de0e89909/collection-1.1.0.jar</arg>
-                <arg>$USER_HOME$/.gradle/caches/transforms-2/files-2.1/ae30b9dce7b0181132a4d85d7b7178c9/cardview-1.0.0-api.jar</arg>
-                <arg>$USER_HOME$/.gradle/caches/transforms-2/files-2.1/aedbc9fc969b3e131332896278ec31d8/jetified-lifecycle-process-2.0.0-api.jar</arg>
-                <arg>$USER_HOME$/.gradle/caches/transforms-2/files-2.1/cfe2808138121c944e44fb68686aaba8/jetified-lifecycle-service-2.0.0-api.jar</arg>
-                <arg>$USER_HOME$/.gradle/caches/transforms-2/files-2.1/74f4d7096c3a307654153462e0ff49ca/lifecycle-runtime-2.3.1-api.jar</arg>
-                <arg>$USER_HOME$/.gradle/caches/transforms-2/files-2.1/e43ffb96a890b97fc16cb2e8e4bcb3c5/jetified-lifecycle-viewmodel-ktx-2.2.0-api.jar</arg>
-                <arg>$USER_HOME$/.gradle/caches/transforms-2/files-2.1/5db9622811d9628c7e0f5a334d65c651/jetified-lifecycle-viewmodel-savedstate-2.3.1-api.jar</arg>
-                <arg>$USER_HOME$/.gradle/caches/transforms-2/files-2.1/c1d94eea97b72e25373fcc6187f0e7cd/lifecycle-viewmodel-2.3.1-api.jar</arg>
-                <arg>$USER_HOME$/.gradle/caches/transforms-2/files-2.1/2102cb66f847b2da9ed5e035cfdfde55/jetified-room-ktx-2.2.5-api.jar</arg>
-                <arg>$USER_HOME$/.gradle/caches/transforms-2/files-2.1/229e4c832960e9854945f8d3dbab4c79/room-runtime-2.2.5-api.jar</arg>
-                <arg>$USER_HOME$/.gradle/caches/modules-2/files-2.1/androidx.room/room-common/2.2.5/f5e3b73a0c2ab5e276e26868e4ce3542baede207/room-common-2.2.5.jar</arg>
-                <arg>$USER_HOME$/.gradle/caches/transforms-2/files-2.1/90be43fb3e19f322e323cb120df0bd35/sqlite-framework-2.0.1-api.jar</arg>
-                <arg>$USER_HOME$/.gradle/caches/transforms-2/files-2.1/d651c2e770e80252650be86c9c70563a/sqlite-2.0.1-api.jar</arg>
-                <arg>$USER_HOME$/.gradle/caches/transforms-2/files-2.1/78903264d03d058571f5415c65f28cc1/lifecycle-livedata-2.0.0-api.jar</arg>
-                <arg>$USER_HOME$/.gradle/caches/transforms-2/files-2.1/562350d44f9f624b9500adfe16db757a/core-runtime-2.1.0-api.jar</arg>
-                <arg>$USER_HOME$/.gradle/caches/transforms-2/files-2.1/21257787a484b82eaa9ad21338fa245f/jetified-gifdecoder-4.11.0-api.jar</arg>
-                <arg>$USER_HOME$/.gradle/caches/transforms-2/files-2.1/69230a97ed1a1870fdfd7fa08e14415c/exifinterface-1.0.0-api.jar</arg>
-                <arg>$USER_HOME$/.gradle/caches/transforms-2/files-2.1/9a58376436ea14395ce37cd896a2e21d/jetified-lifecycle-livedata-core-ktx-2.2.0-api.jar</arg>
-                <arg>$USER_HOME$/.gradle/caches/transforms-2/files-2.1/d9a0c01e57bb1b578558453902dced0c/lifecycle-livedata-core-2.3.1-api.jar</arg>
-                <arg>$USER_HOME$/.gradle/caches/modules-2/files-2.1/androidx.lifecycle/lifecycle-common/2.3.1/fc466261d52f4433863642fb40d12441ae274a98/lifecycle-common-2.3.1.jar</arg>
-                <arg>$USER_HOME$/.gradle/caches/transforms-2/files-2.1/2b7d5bd3a0ae39c1c2ea1d1c1a60f85f/jetified-savedstate-1.1.0-api.jar</arg>
-                <arg>$USER_HOME$/.gradle/caches/modules-2/files-2.1/androidx.arch.core/core-common/2.1.0/b3152fc64428c9354344bd89848ecddc09b6f07e/core-common-2.1.0.jar</arg>
-                <arg>$USER_HOME$/.gradle/caches/transforms-2/files-2.1/7312033cd539bd3101e299f66e71d172/interpolator-1.0.0-api.jar</arg>
-                <arg>$USER_HOME$/.gradle/caches/modules-2/files-2.1/androidx.annotation/annotation/1.1.0/e3a6fb2f40e3a3842e6b7472628ba4ce416ea4c8/annotation-1.1.0.jar</arg>
-                <arg>$USER_HOME$/.gradle/caches/transforms-2/files-2.1/6abe0f2c4a371b7fa8dbdb16a6834560/jetified-annotation-experimental-1.0.0-api.jar</arg>
-                <arg>$USER_HOME$/.gradle/caches/transforms-2/files-2.1/1a5881b4c59c8939f8e223334b635330/jetified-kotlin-android-extensions-runtime-1.3.72.jar</arg>
-                <arg>$USER_HOME$/.gradle/caches/transforms-2/files-2.1/1cd21257e7be133ec0e04d59992488ee/jetified-kotlin-stdlib-jdk7-1.3.72.jar</arg>
-                <arg>$USER_HOME$/.gradle/caches/transforms-2/files-2.1/eefd07d4b6af87d555dc49029c07cbf1/jetified-kotlinx-coroutines-android-1.3.5.jar</arg>
-                <arg>$USER_HOME$/.gradle/caches/transforms-2/files-2.1/b5eb7c6d379a1025feb7bfd3a3e467d0/jetified-kotlinx-coroutines-core-1.3.5.jar</arg>
-                <arg>$USER_HOME$/.gradle/caches/transforms-2/files-2.1/a30a3863b14f65b8e884d88e369493dd/jetified-kotlin-stdlib-1.3.72.jar</arg>
-                <arg>$USER_HOME$/.gradle/caches/transforms-2/files-2.1/fecf6b126258727da650468a18f39d44/jetified-kotlin-stdlib-common-1.3.72.jar</arg>
-                <arg>$USER_HOME$/.gradle/caches/transforms-2/files-2.1/e00d5f454b1048bf2da02999dd2bd45a/jetified-timber-4.7.1-api.jar</arg>
-                <arg>$USER_HOME$/.gradle/caches/transforms-2/files-2.1/b193d8e199199dc4da34af739d1a0eb0/jetified-annotations-16.0.1.jar</arg>
-                <arg>$USER_HOME$/.gradle/caches/transforms-2/files-2.1/6aafd28556973a0038abcb2b91001771/constraintlayout-1.1.3-api.jar</arg>
-                <arg>$USER_HOME$/.gradle/caches/modules-2/files-2.1/androidx.constraintlayout/constraintlayout-solver/1.1.3/54abe9ffb22cc9019b0b6fcc10f185cc4e67b34e/constraintlayout-solver-1.1.3.jar</arg>
-                <arg>$USER_HOME$/.gradle/caches/transforms-2/files-2.1/e041c950420c39d84bb2190b81ff5ef5/jetified-disklrucache-4.11.0.jar</arg>
-                <arg>$USER_HOME$/.gradle/caches/transforms-2/files-2.1/fbfc0630942ab98abe2d011e1119323a/jetified-annotations-4.11.0.jar</arg>
-                <arg>$USER_HOME$/.gradle/caches/transforms-2/files-2.1/b9b90faaab0127b7f5e7ca68f27a5e43/jetified-jsr305-3.0.1.jar</arg>
-                <arg>$USER_HOME$/.gradle/caches/transforms-2/files-2.1/52bcbbd3cbd8d3634269745e3ce924f5/jetified-MPAndroidChart-v3.1.0-api.jar</arg>
-                <arg>$USER_HOME$/.gradle/caches/transforms-2/files-2.1/2899f8f985aa2938e54055e5c6bc82a7/jetified-junit-4.12.jar</arg>
-                <arg>$USER_HOME$/.gradle/caches/transforms-2/files-2.1/03d504f72ef5fc0a899af0533ce38531/jetified-hamcrest-core-1.3.jar</arg>
-                <arg>$MODULE_DIR$/../../../app/build/intermediates/javac/debug/classes</arg>
-                <arg>$MODULE_DIR$/../../../app/build/tmp/kotlin-classes/debug</arg>
-                <arg>$USER_HOME$/AppData/Local/Android/Sdk/platforms/android-29/android.jar</arg>
-                <arg>$USER_HOME$/AppData/Local/Android/Sdk/build-tools/29.0.3/core-lambda-stubs.jar</arg>
-              </args>
-            </stringArg>
-            <stringArg name="destination" arg="$MODULE_DIR$/../../../app/build/tmp/kotlin-classes/debugUnitTest" />
-            <stringArg name="jvmTarget" arg="1.8" />
-            <stringArg name="moduleName" arg="app_debug" />
-            <stringArg name="apiVersion" arg="1.3" />
-            <stringArg name="languageVersion" arg="1.3" />
-          </stringArguments>
-          <arrayArguments>
-            <arrayArg name="friendPaths">
-              <args>
-                <arg>$MODULE_DIR$/../../../app/build/tmp/kotlin-classes/debug</arg>
-                <arg>$MODULE_DIR$/../../../app/build/intermediates/javac/debug/classes</arg>
-                <arg>$MODULE_DIR$/../../../app/build/intermediates/compile_and_runtime_not_namespaced_r_class_jar/debug/R.jar</arg>
-                <arg>$MODULE_DIR$/../../../app/build/intermediates/javac/debug/classes</arg>
-                <arg>$MODULE_DIR$/../../../app/build/tmp/kotlin-classes/debug</arg>
-                <arg>$MODULE_DIR$/../../../app/build/tmp/kapt3/classes/debug</arg>
-              </args>
-            </arrayArg>
-            <arrayArg name="pluginClasspaths">
-              <args>
-                <arg>$USER_HOME$/.gradle/caches/modules-2/files-2.1/org.jetbrains.intellij.deps/trove4j/1.0.20181211/216c2e14b070f334479d800987affe4054cd563f/trove4j-1.0.20181211.jar</arg>
-                <arg>$USER_HOME$/.gradle/caches/modules-2/files-2.1/org.jetbrains.kotlin/kotlin-android-extensions/1.3.72/ecbb105a12a9766d2188f454b3bc3aab46cb80b6/kotlin-android-extensions-1.3.72.jar</arg>
-                <arg>$USER_HOME$/.gradle/caches/modules-2/files-2.1/org.jetbrains.kotlin/kotlin-compiler-embeddable/1.3.72/fb72232c8fa977d5e07d33c43381ddbdc5edab6/kotlin-compiler-embeddable-1.3.72.jar</arg>
-                <arg>$USER_HOME$/.gradle/caches/modules-2/files-2.1/org.jetbrains.kotlin/kotlin-daemon-embeddable/1.3.72/53bbaa2816dbf6bdb85f629451b1fcc88f2164d2/kotlin-daemon-embeddable-1.3.72.jar</arg>
-                <arg>$USER_HOME$/.gradle/caches/modules-2/files-2.1/org.jetbrains.kotlin/kotlin-reflect/1.3.72/86613e1a669a701b0c660bfd2af4f82a7ae11fca/kotlin-reflect-1.3.72.jar</arg>
-                <arg>$USER_HOME$/.gradle/caches/modules-2/files-2.1/org.jetbrains.kotlin/kotlin-script-runtime/1.3.72/657d8d34d91e1964b4439378c09933e840bfe8d5/kotlin-script-runtime-1.3.72.jar</arg>
-                <arg>$USER_HOME$/.gradle/caches/modules-2/files-2.1/org.jetbrains.kotlin/kotlin-stdlib-common/1.3.72/6ca8bee3d88957eaaaef077c41c908c9940492d8/kotlin-stdlib-common-1.3.72.jar</arg>
-                <arg>$USER_HOME$/.gradle/caches/modules-2/files-2.1/org.jetbrains.kotlin/kotlin-stdlib/1.3.72/8032138f12c0180bc4e51fe139d4c52b46db6109/kotlin-stdlib-1.3.72.jar</arg>
-                <arg>$USER_HOME$/.gradle/caches/modules-2/files-2.1/org.jetbrains/annotations/13.0/919f0dfe192fb4e063e7dacadee7f8bb9a2672a9/annotations-13.0.jar</arg>
-              </args>
-            </arrayArg>
-            <arrayArg name="pluginOptions">
-              <args>
-                <arg>plugin:org.jetbrains.kotlin.android:experimental=false</arg>
-                <arg>plugin:org.jetbrains.kotlin.android:enabled=true</arg>
-                <arg>plugin:org.jetbrains.kotlin.android:defaultCacheImplementation=hashMap</arg>
-              </args>
-            </arrayArg>
-          </arrayArguments>
+          <option name="destination" value="$MODULE_DIR$/../../../app/build/tmp/kotlin-classes/debugUnitTest" />
+          <option name="classpath" value="$MODULE_DIR$/../../../app/build/intermediates/compile_and_runtime_not_namespaced_r_class_jar/debug/R.jar;C:/Users/Keneki/.gradle/caches/transforms-2/files-2.1/04ca0908746f67b80b347c7312773e5b/jetified-dagger-android-support-2.23.2-api.jar;C:/Users/Keneki/.gradle/caches/transforms-2/files-2.1/fc52332a908bc7de5538b6395c25ce29/jetified-dagger-android-2.35.1-api.jar;C:/Users/Keneki/.gradle/caches/transforms-2/files-2.1/bab894f7df04acf578192dbb04f74779/jetified-hilt-android-2.38.1-api.jar;C:/Users/Keneki/.gradle/caches/transforms-2/files-2.1/c15629aef36fb3083b5dd495fb69c123/jetified-hilt-core-2.38.1.jar;C:/Users/Keneki/.gradle/caches/transforms-2/files-2.1/78f8f61c9ac4b89e83759922c6787e93/jetified-dagger-2.38.1.jar;C:/Users/Keneki/.gradle/caches/transforms-2/files-2.1/6373a9f51016a9ea20247c54e3b62b31/jetified-javax.inject-1.jar;C:/Users/Keneki/.gradle/caches/transforms-2/files-2.1/53971186fe13b4089a22866b1c3a0e01/jetified-dagger-lint-aar-2.38.1-api.jar;C:/Users/Keneki/.gradle/caches/transforms-2/files-2.1/61753431cd3f3c113b323960b8d49603/navigation-ui-ktx-2.2.2-api.jar;C:/Users/Keneki/.gradle/caches/transforms-2/files-2.1/d10542f9526674896121c9acbba439b2/navigation-ui-2.2.2-api.jar;C:/Users/Keneki/.gradle/caches/transforms-2/files-2.1/b23bba3c9b5a5a5d3b43dd8ffbb28b71/material-1.2.0-alpha06-api.jar;C:/Users/Keneki/.gradle/caches/transforms-2/files-2.1/a0e8a77c5294e157114b1e88208a1f5b/jetified-easypermissions-3.0.0-api.jar;C:/Users/Keneki/.gradle/caches/transforms-2/files-2.1/d035a1734f44e08650655c5cf0ec3fe8/appcompat-1.1.0-api.jar;C:/Users/Keneki/.gradle/caches/transforms-2/files-2.1/a736f7a941cf9530b12dceec361db64b/navigation-fragment-ktx-2.2.2-api.jar;C:/Users/Keneki/.gradle/caches/transforms-2/files-2.1/1bc04d2892a70b9cc42aad6b36e9e55c/navigation-runtime-ktx-2.2.2-api.jar;C:/Users/Keneki/.gradle/caches/transforms-2/files-2.1/19c197ccf8eac3a08e18cc06bce9c4f0/jetified-fragment-ktx-1.2.4-api.jar;C:/Users/Keneki/.gradle/caches/transforms-2/files-2.1/a7b3527dd1ad1626a550e9e02e91e175/jetified-activity-ktx-1.1.0-api.jar;C:/Users/Keneki/.gradle/caches/transforms-2/files-2.1/857d62822826460b683fc5118366023f/jetified-core-ktx-1.2.0-api.jar;C:/Users/Keneki/.gradle/caches/transforms-2/files-2.1/853dbfc6882e7c8f2676c7909ff4354f/jetified-lifecycle-runtime-ktx-2.2.0-api.jar;C:/Users/Keneki/.gradle/caches/transforms-2/files-2.1/67a5f980059a3c6a9a9d3055d9010d4b/jetified-glide-4.11.0-api.jar;C:/Users/Keneki/.gradle/caches/transforms-2/files-2.1/4509673e939648baf4dc81bae7e883f4/jetified-play-services-maps-17.0.0-api.jar;C:/Users/Keneki/.gradle/caches/transforms-2/files-2.1/e74a4877395f2bf8284ac37b9b939076/lifecycle-extensions-2.0.0-api.jar;C:/Users/Keneki/.gradle/caches/transforms-2/files-2.1/dacab798f2dfcd1cef26e57bed9158ae/jetified-viewpager2-1.0.0-api.jar;C:/Users/Keneki/.gradle/caches/transforms-2/files-2.1/8db5efafdd7ada23786b9040e1ebe581/navigation-fragment-2.2.2-api.jar;C:/Users/Keneki/.gradle/caches/transforms-2/files-2.1/ccff7c6201d9e6b683ddcd39080bc9eb/jetified-play-services-location-17.0.0-api.jar;C:/Users/Keneki/.gradle/caches/transforms-2/files-2.1/15563295fb61d19416486a64247b370d/jetified-play-services-base-17.0.0-api.jar;C:/Users/Keneki/.gradle/caches/transforms-2/files-2.1/0d45226a6e345ef00a498ab8d01c4e7f/jetified-play-services-places-placereport-17.0.0-api.jar;C:/Users/Keneki/.gradle/caches/transforms-2/files-2.1/297bd0a8a8a1e7217145625949e8dde9/jetified-play-services-tasks-17.0.0-api.jar;C:/Users/Keneki/.gradle/caches/transforms-2/files-2.1/9db656bcf3cf0fbd943678d6b7f934a9/jetified-play-services-basement-17.0.0-api.jar;C:/Users/Keneki/.gradle/caches/transforms-2/files-2.1/e263b471ef48c46faea7e83b2b88374d/fragment-1.3.2-api.jar;C:/Users/Keneki/.gradle/caches/transforms-2/files-2.1/b142dd978ad6a48c71d8b23a2aa38265/jetified-appcompat-resources-1.1.0-api.jar;C:/Users/Keneki/.gradle/caches/transforms-2/files-2.1/cb082c3549e59c5bda70e0e4f567124b/drawerlayout-1.0.0-api.jar;C:/Users/Keneki/.gradle/caches/transforms-2/files-2.1/a9c707154f12b295aa1b853c5044e66f/coordinatorlayout-1.1.0-api.jar;C:/Users/Keneki/.gradle/caches/transforms-2/files-2.1/c5bfab9f8d4659a11ad3eb2f75ecce28/recyclerview-1.1.0-api.jar;C:/Users/Keneki/.gradle/caches/transforms-2/files-2.1/bcd5d52e4efbf2d8aa819d97f0b07540/transition-1.2.0-api.jar;C:/Users/Keneki/.gradle/caches/transforms-2/files-2.1/1ce881e73638c3807852fbb716b5acf3/vectordrawable-animated-1.1.0-api.jar;C:/Users/Keneki/.gradle/caches/transforms-2/files-2.1/15ed49bd0aa79b703fcd84eb5c458460/vectordrawable-1.1.0-api.jar;C:/Users/Keneki/.gradle/caches/transforms-2/files-2.1/2e21b8340139e670079f64bff2edcf92/navigation-runtime-2.2.2-api.jar;C:/Users/Keneki/.gradle/caches/transforms-2/files-2.1/b3b8c3c235748490628155358779f7dd/jetified-activity-1.2.2-api.jar;C:/Users/Keneki/.gradle/caches/transforms-2/files-2.1/bee0cf26e7e5e34c7e7e2bfe274ea4c6/viewpager-1.0.0-api.jar;C:/Users/Keneki/.gradle/caches/transforms-2/files-2.1/48bdade33a94007c488461c15fcebf37/loader-1.0.0-api.jar;C:/Users/Keneki/.gradle/caches/transforms-2/files-2.1/a7415bc50665c7702e097d2e9651e9c4/customview-1.0.0-api.jar;C:/Users/Keneki/.gradle/caches/transforms-2/files-2.1/0ceca827a0d2701721c88c29e93414a7/navigation-common-ktx-2.2.2-api.jar;C:/Users/Keneki/.gradle/caches/transforms-2/files-2.1/b64409399a0fcaa492841676df4d022f/navigation-common-2.2.2-api.jar;C:/Users/Keneki/.gradle/caches/transforms-2/files-2.1/ee3c1b76dddcc13d22fdde95f709f070/core-1.2.0-api.jar;C:/Users/Keneki/.gradle/caches/transforms-2/files-2.1/fe74d91190ca46a137d8585181d64dbb/cursoradapter-1.0.0-api.jar;C:/Users/Keneki/.gradle/caches/transforms-2/files-2.1/39c8af5a09933fa670f665e69e58f80f/versionedparcelable-1.1.0-api.jar;C:/Users/Keneki/.gradle/caches/transforms-2/files-2.1/c612e45efcf66d4e44d54cfbf3083891/jetified-collection-ktx-1.1.0.jar;C:/Users/Keneki/.gradle/caches/modules-2/files-2.1/androidx.collection/collection/1.1.0/1f27220b47669781457de0d600849a5de0e89909/collection-1.1.0.jar;C:/Users/Keneki/.gradle/caches/transforms-2/files-2.1/ae30b9dce7b0181132a4d85d7b7178c9/cardview-1.0.0-api.jar;C:/Users/Keneki/.gradle/caches/transforms-2/files-2.1/aedbc9fc969b3e131332896278ec31d8/jetified-lifecycle-process-2.0.0-api.jar;C:/Users/Keneki/.gradle/caches/transforms-2/files-2.1/cfe2808138121c944e44fb68686aaba8/jetified-lifecycle-service-2.0.0-api.jar;C:/Users/Keneki/.gradle/caches/transforms-2/files-2.1/74f4d7096c3a307654153462e0ff49ca/lifecycle-runtime-2.3.1-api.jar;C:/Users/Keneki/.gradle/caches/transforms-2/files-2.1/e43ffb96a890b97fc16cb2e8e4bcb3c5/jetified-lifecycle-viewmodel-ktx-2.2.0-api.jar;C:/Users/Keneki/.gradle/caches/transforms-2/files-2.1/5db9622811d9628c7e0f5a334d65c651/jetified-lifecycle-viewmodel-savedstate-2.3.1-api.jar;C:/Users/Keneki/.gradle/caches/transforms-2/files-2.1/c1d94eea97b72e25373fcc6187f0e7cd/lifecycle-viewmodel-2.3.1-api.jar;C:/Users/Keneki/.gradle/caches/transforms-2/files-2.1/2102cb66f847b2da9ed5e035cfdfde55/jetified-room-ktx-2.2.5-api.jar;C:/Users/Keneki/.gradle/caches/transforms-2/files-2.1/229e4c832960e9854945f8d3dbab4c79/room-runtime-2.2.5-api.jar;C:/Users/Keneki/.gradle/caches/modules-2/files-2.1/androidx.room/room-common/2.2.5/f5e3b73a0c2ab5e276e26868e4ce3542baede207/room-common-2.2.5.jar;C:/Users/Keneki/.gradle/caches/transforms-2/files-2.1/90be43fb3e19f322e323cb120df0bd35/sqlite-framework-2.0.1-api.jar;C:/Users/Keneki/.gradle/caches/transforms-2/files-2.1/d651c2e770e80252650be86c9c70563a/sqlite-2.0.1-api.jar;C:/Users/Keneki/.gradle/caches/transforms-2/files-2.1/78903264d03d058571f5415c65f28cc1/lifecycle-livedata-2.0.0-api.jar;C:/Users/Keneki/.gradle/caches/transforms-2/files-2.1/562350d44f9f624b9500adfe16db757a/core-runtime-2.1.0-api.jar;C:/Users/Keneki/.gradle/caches/transforms-2/files-2.1/21257787a484b82eaa9ad21338fa245f/jetified-gifdecoder-4.11.0-api.jar;C:/Users/Keneki/.gradle/caches/transforms-2/files-2.1/69230a97ed1a1870fdfd7fa08e14415c/exifinterface-1.0.0-api.jar;C:/Users/Keneki/.gradle/caches/transforms-2/files-2.1/9a58376436ea14395ce37cd896a2e21d/jetified-lifecycle-livedata-core-ktx-2.2.0-api.jar;C:/Users/Keneki/.gradle/caches/transforms-2/files-2.1/d9a0c01e57bb1b578558453902dced0c/lifecycle-livedata-core-2.3.1-api.jar;C:/Users/Keneki/.gradle/caches/modules-2/files-2.1/androidx.lifecycle/lifecycle-common/2.3.1/fc466261d52f4433863642fb40d12441ae274a98/lifecycle-common-2.3.1.jar;C:/Users/Keneki/.gradle/caches/transforms-2/files-2.1/2b7d5bd3a0ae39c1c2ea1d1c1a60f85f/jetified-savedstate-1.1.0-api.jar;C:/Users/Keneki/.gradle/caches/modules-2/files-2.1/androidx.arch.core/core-common/2.1.0/b3152fc64428c9354344bd89848ecddc09b6f07e/core-common-2.1.0.jar;C:/Users/Keneki/.gradle/caches/transforms-2/files-2.1/7312033cd539bd3101e299f66e71d172/interpolator-1.0.0-api.jar;C:/Users/Keneki/.gradle/caches/modules-2/files-2.1/androidx.annotation/annotation/1.1.0/e3a6fb2f40e3a3842e6b7472628ba4ce416ea4c8/annotation-1.1.0.jar;C:/Users/Keneki/.gradle/caches/transforms-2/files-2.1/6abe0f2c4a371b7fa8dbdb16a6834560/jetified-annotation-experimental-1.0.0-api.jar;C:/Users/Keneki/.gradle/caches/transforms-2/files-2.1/1a5881b4c59c8939f8e223334b635330/jetified-kotlin-android-extensions-runtime-1.3.72.jar;C:/Users/Keneki/.gradle/caches/transforms-2/files-2.1/1cd21257e7be133ec0e04d59992488ee/jetified-kotlin-stdlib-jdk7-1.3.72.jar;C:/Users/Keneki/.gradle/caches/transforms-2/files-2.1/eefd07d4b6af87d555dc49029c07cbf1/jetified-kotlinx-coroutines-android-1.3.5.jar;C:/Users/Keneki/.gradle/caches/transforms-2/files-2.1/b5eb7c6d379a1025feb7bfd3a3e467d0/jetified-kotlinx-coroutines-core-1.3.5.jar;C:/Users/Keneki/.gradle/caches/transforms-2/files-2.1/a30a3863b14f65b8e884d88e369493dd/jetified-kotlin-stdlib-1.3.72.jar;C:/Users/Keneki/.gradle/caches/transforms-2/files-2.1/fecf6b126258727da650468a18f39d44/jetified-kotlin-stdlib-common-1.3.72.jar;C:/Users/Keneki/.gradle/caches/transforms-2/files-2.1/e00d5f454b1048bf2da02999dd2bd45a/jetified-timber-4.7.1-api.jar;C:/Users/Keneki/.gradle/caches/transforms-2/files-2.1/b193d8e199199dc4da34af739d1a0eb0/jetified-annotations-16.0.1.jar;C:/Users/Keneki/.gradle/caches/transforms-2/files-2.1/6aafd28556973a0038abcb2b91001771/constraintlayout-1.1.3-api.jar;C:/Users/Keneki/.gradle/caches/modules-2/files-2.1/androidx.constraintlayout/constraintlayout-solver/1.1.3/54abe9ffb22cc9019b0b6fcc10f185cc4e67b34e/constraintlayout-solver-1.1.3.jar;C:/Users/Keneki/.gradle/caches/transforms-2/files-2.1/e041c950420c39d84bb2190b81ff5ef5/jetified-disklrucache-4.11.0.jar;C:/Users/Keneki/.gradle/caches/transforms-2/files-2.1/fbfc0630942ab98abe2d011e1119323a/jetified-annotations-4.11.0.jar;C:/Users/Keneki/.gradle/caches/transforms-2/files-2.1/b9b90faaab0127b7f5e7ca68f27a5e43/jetified-jsr305-3.0.1.jar;C:/Users/Keneki/.gradle/caches/transforms-2/files-2.1/52bcbbd3cbd8d3634269745e3ce924f5/jetified-MPAndroidChart-v3.1.0-api.jar;C:/Users/Keneki/.gradle/caches/transforms-2/files-2.1/2899f8f985aa2938e54055e5c6bc82a7/jetified-junit-4.12.jar;C:/Users/Keneki/.gradle/caches/transforms-2/files-2.1/03d504f72ef5fc0a899af0533ce38531/jetified-hamcrest-core-1.3.jar;C:/Users/Keneki/Downloads/Running App/app/build/intermediates/javac/debug/classes;C:/Users/Keneki/Downloads/Running App/app/build/tmp/kotlin-classes/debug;D:/androidsdk/Sdk/platforms/android-29/android.jar;D:/androidsdk/Sdk/build-tools/29.0.3/core-lambda-stubs.jar" />
+          <option name="noStdlib" value="true" />
+          <option name="noReflect" value="true" />
+          <option name="moduleName" value="app_debug" />
+          <option name="friendPaths">
+            <array>
+              <option value="$MODULE_DIR$/../../../app/build/tmp/kotlin-classes/debug" />
+              <option value="$MODULE_DIR$/../../../app/build/intermediates/javac/debug/classes" />
+              <option value="$MODULE_DIR$/../../../app/build/intermediates/compile_and_runtime_not_namespaced_r_class_jar/debug/R.jar" />
+              <option value="$MODULE_DIR$/../../../app/build/intermediates/javac/debug/classes" />
+              <option value="$MODULE_DIR$/../../../app/build/tmp/kotlin-classes/debug" />
+              <option value="$MODULE_DIR$/../../../app/build/tmp/kapt3/classes/debug" />
+            </array>
+          </option>
+          <option name="languageVersion" value="1.3" />
+          <option name="apiVersion" value="1.3" />
+          <option name="pluginOptions">
+            <array>
+              <option value="plugin:org.jetbrains.kotlin.android:experimental=false" />
+              <option value="plugin:org.jetbrains.kotlin.android:enabled=true" />
+              <option value="plugin:org.jetbrains.kotlin.android:defaultCacheImplementation=hashMap" />
+            </array>
+          </option>
+          <option name="pluginClasspaths">
+            <array>
+              <option value="$USER_HOME$/.gradle/caches/modules-2/files-2.1/org.jetbrains.intellij.deps/trove4j/1.0.20181211/216c2e14b070f334479d800987affe4054cd563f/trove4j-1.0.20181211.jar" />
+              <option value="$USER_HOME$/.gradle/caches/modules-2/files-2.1/org.jetbrains.kotlin/kotlin-android-extensions/1.3.72/ecbb105a12a9766d2188f454b3bc3aab46cb80b6/kotlin-android-extensions-1.3.72.jar" />
+              <option value="$USER_HOME$/.gradle/caches/modules-2/files-2.1/org.jetbrains.kotlin/kotlin-compiler-embeddable/1.3.72/fb72232c8fa977d5e07d33c43381ddbdc5edab6/kotlin-compiler-embeddable-1.3.72.jar" />
+              <option value="$USER_HOME$/.gradle/caches/modules-2/files-2.1/org.jetbrains.kotlin/kotlin-daemon-embeddable/1.3.72/53bbaa2816dbf6bdb85f629451b1fcc88f2164d2/kotlin-daemon-embeddable-1.3.72.jar" />
+              <option value="$USER_HOME$/.gradle/caches/modules-2/files-2.1/org.jetbrains.kotlin/kotlin-reflect/1.3.72/86613e1a669a701b0c660bfd2af4f82a7ae11fca/kotlin-reflect-1.3.72.jar" />
+              <option value="$USER_HOME$/.gradle/caches/modules-2/files-2.1/org.jetbrains.kotlin/kotlin-script-runtime/1.3.72/657d8d34d91e1964b4439378c09933e840bfe8d5/kotlin-script-runtime-1.3.72.jar" />
+              <option value="$USER_HOME$/.gradle/caches/modules-2/files-2.1/org.jetbrains.kotlin/kotlin-stdlib-common/1.3.72/6ca8bee3d88957eaaaef077c41c908c9940492d8/kotlin-stdlib-common-1.3.72.jar" />
+              <option value="$USER_HOME$/.gradle/caches/modules-2/files-2.1/org.jetbrains.kotlin/kotlin-stdlib/1.3.72/8032138f12c0180bc4e51fe139d4c52b46db6109/kotlin-stdlib-1.3.72.jar" />
+              <option value="$USER_HOME$/.gradle/caches/modules-2/files-2.1/org.jetbrains/annotations/13.0/919f0dfe192fb4e063e7dacadee7f8bb9a2672a9/annotations-13.0.jar" />
+            </array>
+          </option>
+          <option name="errors">
+            <ArgumentParseErrors />
+          </option>
         </compilerArguments>
       </configuration>
     </facet>
@@ -174,6 +74,7 @@
     <content url="file://$MODULE_DIR$/../../../app/build/generated/source/kaptKotlin/debugUnitTest">
       <sourceFolder url="file://$MODULE_DIR$/../../../app/build/generated/source/kaptKotlin/debugUnitTest" isTestSource="true" generated="true" />
       <sourceFolder url="file://$MODULE_DIR$/../../../app/build/generated/source/kaptKotlin/debugUnitTest" isTestSource="true" generated="true" />
+      <sourceFolder url="file://$MODULE_DIR$/../../../app/build/generated/source/kaptKotlin/debugUnitTest" isTestSource="true" />
     </content>
     <content url="file://$MODULE_DIR$/../../../app/src/test">
       <sourceFolder url="file://$MODULE_DIR$/../../../app/src/test/java" isTestSource="true" />
