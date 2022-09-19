@@ -6,134 +6,134 @@
 6
 7    <uses-sdk
 8        android:minSdkVersion="21"
-8-->C:\Users\Alpha\Downloads\Running App\app\src\main\AndroidManifest.xml
+8-->C:\Users\Keneki\Downloads\Running App\app\src\main\AndroidManifest.xml
 9        android:targetSdkVersion="28" />
-9-->[androidx.navigation:navigation-ui-ktx:2.2.2] C:\Users\Alpha\.gradle\caches\transforms-2\files-2.1\dc237bfd2d6db37fdff3934a488acd08\navigation-ui-ktx-2.2.2\AndroidManifest.xml:22:9-38
+9-->[androidx.navigation:navigation-ui-ktx:2.2.2] C:\Users\Keneki\.gradle\caches\transforms-2\files-2.1\dc237bfd2d6db37fdff3934a488acd08\navigation-ui-ktx-2.2.2\AndroidManifest.xml:22:9-38
 10
 11    <uses-permission android:name="android.permission.ACCESS_FINE_LOCATION" />
-11-->C:\Users\Alpha\Downloads\Running App\app\src\main\AndroidManifest.xml:5:5-79
-11-->C:\Users\Alpha\Downloads\Running App\app\src\main\AndroidManifest.xml:5:22-76
+11-->C:\Users\Keneki\Downloads\Running App\app\src\main\AndroidManifest.xml:5:5-79
+11-->C:\Users\Keneki\Downloads\Running App\app\src\main\AndroidManifest.xml:5:22-76
 12    <uses-permission android:name="android.permission.ACCESS_COARSE_LOCATION" />
-12-->C:\Users\Alpha\Downloads\Running App\app\src\main\AndroidManifest.xml:6:5-81
-12-->C:\Users\Alpha\Downloads\Running App\app\src\main\AndroidManifest.xml:6:22-78
+12-->C:\Users\Keneki\Downloads\Running App\app\src\main\AndroidManifest.xml:6:5-81
+12-->C:\Users\Keneki\Downloads\Running App\app\src\main\AndroidManifest.xml:6:22-78
 13    <uses-permission android:name="android.permission.ACCESS_BACKGROUND_LOCATION" />
-13-->C:\Users\Alpha\Downloads\Running App\app\src\main\AndroidManifest.xml:7:5-85
-13-->C:\Users\Alpha\Downloads\Running App\app\src\main\AndroidManifest.xml:7:22-82
+13-->C:\Users\Keneki\Downloads\Running App\app\src\main\AndroidManifest.xml:7:5-85
+13-->C:\Users\Keneki\Downloads\Running App\app\src\main\AndroidManifest.xml:7:22-82
 14    <uses-permission android:name="android.permission.FOREGROUND_SERVICE" />
-14-->C:\Users\Alpha\Downloads\Running App\app\src\main\AndroidManifest.xml:8:5-77
-14-->C:\Users\Alpha\Downloads\Running App\app\src\main\AndroidManifest.xml:8:22-74
+14-->C:\Users\Keneki\Downloads\Running App\app\src\main\AndroidManifest.xml:8:5-77
+14-->C:\Users\Keneki\Downloads\Running App\app\src\main\AndroidManifest.xml:8:22-74
 15
 16    <!-- Include required permissions for Google Maps API to run. -->
 17    <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE" />
-17-->[com.google.android.gms:play-services-maps:17.0.0] C:\Users\Alpha\.gradle\caches\transforms-2\files-2.1\b44f81451d97d2480d0b8aab8bd6c926\jetified-play-services-maps-17.0.0\AndroidManifest.xml:23:5-79
-17-->[com.google.android.gms:play-services-maps:17.0.0] C:\Users\Alpha\.gradle\caches\transforms-2\files-2.1\b44f81451d97d2480d0b8aab8bd6c926\jetified-play-services-maps-17.0.0\AndroidManifest.xml:23:22-76
+17-->[com.google.android.gms:play-services-maps:17.0.0] C:\Users\Keneki\.gradle\caches\transforms-2\files-2.1\b44f81451d97d2480d0b8aab8bd6c926\jetified-play-services-maps-17.0.0\AndroidManifest.xml:23:5-79
+17-->[com.google.android.gms:play-services-maps:17.0.0] C:\Users\Keneki\.gradle\caches\transforms-2\files-2.1\b44f81451d97d2480d0b8aab8bd6c926\jetified-play-services-maps-17.0.0\AndroidManifest.xml:23:22-76
 18    <uses-permission android:name="android.permission.INTERNET" />
-18-->[com.google.android.gms:play-services-maps:17.0.0] C:\Users\Alpha\.gradle\caches\transforms-2\files-2.1\b44f81451d97d2480d0b8aab8bd6c926\jetified-play-services-maps-17.0.0\AndroidManifest.xml:24:5-67
-18-->[com.google.android.gms:play-services-maps:17.0.0] C:\Users\Alpha\.gradle\caches\transforms-2\files-2.1\b44f81451d97d2480d0b8aab8bd6c926\jetified-play-services-maps-17.0.0\AndroidManifest.xml:24:22-64
+18-->[com.google.android.gms:play-services-maps:17.0.0] C:\Users\Keneki\.gradle\caches\transforms-2\files-2.1\b44f81451d97d2480d0b8aab8bd6c926\jetified-play-services-maps-17.0.0\AndroidManifest.xml:24:5-67
+18-->[com.google.android.gms:play-services-maps:17.0.0] C:\Users\Keneki\.gradle\caches\transforms-2\files-2.1\b44f81451d97d2480d0b8aab8bd6c926\jetified-play-services-maps-17.0.0\AndroidManifest.xml:24:22-64
 19
 20    <uses-feature
-20-->[com.google.android.gms:play-services-maps:17.0.0] C:\Users\Alpha\.gradle\caches\transforms-2\files-2.1\b44f81451d97d2480d0b8aab8bd6c926\jetified-play-services-maps-17.0.0\AndroidManifest.xml:26:5-28:35
+20-->[com.google.android.gms:play-services-maps:17.0.0] C:\Users\Keneki\.gradle\caches\transforms-2\files-2.1\b44f81451d97d2480d0b8aab8bd6c926\jetified-play-services-maps-17.0.0\AndroidManifest.xml:26:5-28:35
 21        android:glEsVersion="0x00020000"
-21-->[com.google.android.gms:play-services-maps:17.0.0] C:\Users\Alpha\.gradle\caches\transforms-2\files-2.1\b44f81451d97d2480d0b8aab8bd6c926\jetified-play-services-maps-17.0.0\AndroidManifest.xml:27:9-41
+21-->[com.google.android.gms:play-services-maps:17.0.0] C:\Users\Keneki\.gradle\caches\transforms-2\files-2.1\b44f81451d97d2480d0b8aab8bd6c926\jetified-play-services-maps-17.0.0\AndroidManifest.xml:27:9-41
 22        android:required="true" />
-22-->[com.google.android.gms:play-services-maps:17.0.0] C:\Users\Alpha\.gradle\caches\transforms-2\files-2.1\b44f81451d97d2480d0b8aab8bd6c926\jetified-play-services-maps-17.0.0\AndroidManifest.xml:28:9-32
+22-->[com.google.android.gms:play-services-maps:17.0.0] C:\Users\Keneki\.gradle\caches\transforms-2\files-2.1\b44f81451d97d2480d0b8aab8bd6c926\jetified-play-services-maps-17.0.0\AndroidManifest.xml:28:9-32
 23
 24    <application
-24-->C:\Users\Alpha\Downloads\Running App\app\src\main\AndroidManifest.xml:10:5-32:19
+24-->C:\Users\Keneki\Downloads\Running App\app\src\main\AndroidManifest.xml:10:5-30:19
 25        android:name="com.androiddevs.runningappyt.di.BaseApplication"
-25-->C:\Users\Alpha\Downloads\Running App\app\src\main\AndroidManifest.xml:11:9-43
+25-->C:\Users\Keneki\Downloads\Running App\app\src\main\AndroidManifest.xml:11:9-43
 26        android:allowBackup="true"
-26-->C:\Users\Alpha\Downloads\Running App\app\src\main\AndroidManifest.xml:12:9-35
+26-->C:\Users\Keneki\Downloads\Running App\app\src\main\AndroidManifest.xml:12:9-35
 27        android:appComponentFactory="androidx.core.app.CoreComponentFactory"
-27-->[androidx.core:core:1.2.0] C:\Users\Alpha\.gradle\caches\transforms-2\files-2.1\a2a9f5b14517d5e739d97725e709238f\core-1.2.0\AndroidManifest.xml:24:18-86
+27-->[androidx.core:core:1.2.0] C:\Users\Keneki\.gradle\caches\transforms-2\files-2.1\a2a9f5b14517d5e739d97725e709238f\core-1.2.0\AndroidManifest.xml:24:18-86
 28        android:debuggable="true"
 29        android:icon="@mipmap/ic_launcher"
-29-->C:\Users\Alpha\Downloads\Running App\app\src\main\AndroidManifest.xml:13:9-43
+29-->C:\Users\Keneki\Downloads\Running App\app\src\main\AndroidManifest.xml:13:9-43
 30        android:label="@string/app_name"
-30-->C:\Users\Alpha\Downloads\Running App\app\src\main\AndroidManifest.xml:14:9-41
+30-->C:\Users\Keneki\Downloads\Running App\app\src\main\AndroidManifest.xml:14:9-41
 31        android:roundIcon="@mipmap/ic_launcher_round"
-31-->C:\Users\Alpha\Downloads\Running App\app\src\main\AndroidManifest.xml:15:9-54
+31-->C:\Users\Keneki\Downloads\Running App\app\src\main\AndroidManifest.xml:15:9-54
 32        android:supportsRtl="true"
-32-->C:\Users\Alpha\Downloads\Running App\app\src\main\AndroidManifest.xml:16:9-35
+32-->C:\Users\Keneki\Downloads\Running App\app\src\main\AndroidManifest.xml:16:9-35
 33        android:testOnly="true"
 34        android:theme="@style/AppTheme" >
-34-->C:\Users\Alpha\Downloads\Running App\app\src\main\AndroidManifest.xml:17:9-40
+34-->C:\Users\Keneki\Downloads\Running App\app\src\main\AndroidManifest.xml:17:9-40
 35        <activity
-35-->C:\Users\Alpha\Downloads\Running App\app\src\main\AndroidManifest.xml:18:9-24:20
+35-->C:\Users\Keneki\Downloads\Running App\app\src\main\AndroidManifest.xml:18:9-23:20
 36            android:name="com.androiddevs.runningappyt.ui.MainActivity"
-36-->C:\Users\Alpha\Downloads\Running App\app\src\main\AndroidManifest.xml:18:19-50
+36-->C:\Users\Keneki\Downloads\Running App\app\src\main\AndroidManifest.xml:18:19-50
 37            android:launchMode="singleTask" >
-37-->C:\Users\Alpha\Downloads\Running App\app\src\main\AndroidManifest.xml:18:51-82
+37-->C:\Users\Keneki\Downloads\Running App\app\src\main\AndroidManifest.xml:18:51-82
 38            <intent-filter>
-38-->C:\Users\Alpha\Downloads\Running App\app\src\main\AndroidManifest.xml:19:13-23:29
+38-->C:\Users\Keneki\Downloads\Running App\app\src\main\AndroidManifest.xml:19:13-22:29
 39                <action android:name="android.intent.action.MAIN" />
-39-->C:\Users\Alpha\Downloads\Running App\app\src\main\AndroidManifest.xml:20:17-69
-39-->C:\Users\Alpha\Downloads\Running App\app\src\main\AndroidManifest.xml:20:25-66
+39-->C:\Users\Keneki\Downloads\Running App\app\src\main\AndroidManifest.xml:20:17-69
+39-->C:\Users\Keneki\Downloads\Running App\app\src\main\AndroidManifest.xml:20:25-66
 40
 41                <category android:name="android.intent.category.LAUNCHER" />
-41-->C:\Users\Alpha\Downloads\Running App\app\src\main\AndroidManifest.xml:22:17-77
-41-->C:\Users\Alpha\Downloads\Running App\app\src\main\AndroidManifest.xml:22:27-74
+41-->C:\Users\Keneki\Downloads\Running App\app\src\main\AndroidManifest.xml:21:17-77
+41-->C:\Users\Keneki\Downloads\Running App\app\src\main\AndroidManifest.xml:21:27-74
 42            </intent-filter>
 43        </activity>
 44
 45        <meta-data
-45-->C:\Users\Alpha\Downloads\Running App\app\src\main\AndroidManifest.xml:26:9-28:69
+45-->C:\Users\Keneki\Downloads\Running App\app\src\main\AndroidManifest.xml:24:9-26:69
 46            android:name="com.google.android.gms.version"
-46-->C:\Users\Alpha\Downloads\Running App\app\src\main\AndroidManifest.xml:27:13-58
+46-->C:\Users\Keneki\Downloads\Running App\app\src\main\AndroidManifest.xml:25:13-58
 47            android:value="@integer/google_play_services_version" />
-47-->C:\Users\Alpha\Downloads\Running App\app\src\main\AndroidManifest.xml:28:13-66
+47-->C:\Users\Keneki\Downloads\Running App\app\src\main\AndroidManifest.xml:26:13-66
 48        <meta-data
-48-->C:\Users\Alpha\Downloads\Running App\app\src\main\AndroidManifest.xml:29:9-31:55
+48-->C:\Users\Keneki\Downloads\Running App\app\src\main\AndroidManifest.xml:27:9-29:55
 49            android:name="com.google.android.geo.API_KEY"
-49-->C:\Users\Alpha\Downloads\Running App\app\src\main\AndroidManifest.xml:30:13-58
+49-->C:\Users\Keneki\Downloads\Running App\app\src\main\AndroidManifest.xml:28:13-58
 50            android:value="@string/google_maps_key" />
-50-->C:\Users\Alpha\Downloads\Running App\app\src\main\AndroidManifest.xml:31:13-52
+50-->C:\Users\Keneki\Downloads\Running App\app\src\main\AndroidManifest.xml:29:13-52
 51
 52        <activity
-52-->[pub.devrel:easypermissions:3.0.0] C:\Users\Alpha\.gradle\caches\transforms-2\files-2.1\0b79619d62613ef5663aefaa69eab197\jetified-easypermissions-3.0.0\AndroidManifest.xml:12:9-16:66
+52-->[pub.devrel:easypermissions:3.0.0] C:\Users\Keneki\.gradle\caches\transforms-2\files-2.1\0b79619d62613ef5663aefaa69eab197\jetified-easypermissions-3.0.0\AndroidManifest.xml:12:9-16:66
 53            android:name="pub.devrel.easypermissions.AppSettingsDialogHolderActivity"
-53-->[pub.devrel:easypermissions:3.0.0] C:\Users\Alpha\.gradle\caches\transforms-2\files-2.1\0b79619d62613ef5663aefaa69eab197\jetified-easypermissions-3.0.0\AndroidManifest.xml:13:13-86
+53-->[pub.devrel:easypermissions:3.0.0] C:\Users\Keneki\.gradle\caches\transforms-2\files-2.1\0b79619d62613ef5663aefaa69eab197\jetified-easypermissions-3.0.0\AndroidManifest.xml:13:13-86
 54            android:exported="false"
-54-->[pub.devrel:easypermissions:3.0.0] C:\Users\Alpha\.gradle\caches\transforms-2\files-2.1\0b79619d62613ef5663aefaa69eab197\jetified-easypermissions-3.0.0\AndroidManifest.xml:14:13-37
+54-->[pub.devrel:easypermissions:3.0.0] C:\Users\Keneki\.gradle\caches\transforms-2\files-2.1\0b79619d62613ef5663aefaa69eab197\jetified-easypermissions-3.0.0\AndroidManifest.xml:14:13-37
 55            android:label=""
-55-->[pub.devrel:easypermissions:3.0.0] C:\Users\Alpha\.gradle\caches\transforms-2\files-2.1\0b79619d62613ef5663aefaa69eab197\jetified-easypermissions-3.0.0\AndroidManifest.xml:15:13-29
+55-->[pub.devrel:easypermissions:3.0.0] C:\Users\Keneki\.gradle\caches\transforms-2\files-2.1\0b79619d62613ef5663aefaa69eab197\jetified-easypermissions-3.0.0\AndroidManifest.xml:15:13-29
 56            android:theme="@style/EasyPermissions.Transparent" />
-56-->[pub.devrel:easypermissions:3.0.0] C:\Users\Alpha\.gradle\caches\transforms-2\files-2.1\0b79619d62613ef5663aefaa69eab197\jetified-easypermissions-3.0.0\AndroidManifest.xml:16:13-63
+56-->[pub.devrel:easypermissions:3.0.0] C:\Users\Keneki\.gradle\caches\transforms-2\files-2.1\0b79619d62613ef5663aefaa69eab197\jetified-easypermissions-3.0.0\AndroidManifest.xml:16:13-63
 57
 58        <service
-58-->[androidx.room:room-runtime:2.2.5] C:\Users\Alpha\.gradle\caches\transforms-2\files-2.1\92152afc2de63785223ba1ce0ad99c01\room-runtime-2.2.5\AndroidManifest.xml:25:9-28:40
+58-->[androidx.room:room-runtime:2.2.5] C:\Users\Keneki\.gradle\caches\transforms-2\files-2.1\92152afc2de63785223ba1ce0ad99c01\room-runtime-2.2.5\AndroidManifest.xml:25:9-28:40
 59            android:name="androidx.room.MultiInstanceInvalidationService"
-59-->[androidx.room:room-runtime:2.2.5] C:\Users\Alpha\.gradle\caches\transforms-2\files-2.1\92152afc2de63785223ba1ce0ad99c01\room-runtime-2.2.5\AndroidManifest.xml:26:13-74
+59-->[androidx.room:room-runtime:2.2.5] C:\Users\Keneki\.gradle\caches\transforms-2\files-2.1\92152afc2de63785223ba1ce0ad99c01\room-runtime-2.2.5\AndroidManifest.xml:26:13-74
 60            android:directBootAware="true"
-60-->[androidx.room:room-runtime:2.2.5] C:\Users\Alpha\.gradle\caches\transforms-2\files-2.1\92152afc2de63785223ba1ce0ad99c01\room-runtime-2.2.5\AndroidManifest.xml:27:13-43
+60-->[androidx.room:room-runtime:2.2.5] C:\Users\Keneki\.gradle\caches\transforms-2\files-2.1\92152afc2de63785223ba1ce0ad99c01\room-runtime-2.2.5\AndroidManifest.xml:27:13-43
 61            android:exported="false" /> <!-- Needs to be explicitly declared on P+ -->
-61-->[androidx.room:room-runtime:2.2.5] C:\Users\Alpha\.gradle\caches\transforms-2\files-2.1\92152afc2de63785223ba1ce0ad99c01\room-runtime-2.2.5\AndroidManifest.xml:28:13-37
+61-->[androidx.room:room-runtime:2.2.5] C:\Users\Keneki\.gradle\caches\transforms-2\files-2.1\92152afc2de63785223ba1ce0ad99c01\room-runtime-2.2.5\AndroidManifest.xml:28:13-37
 62        <uses-library
-62-->[com.google.android.gms:play-services-maps:17.0.0] C:\Users\Alpha\.gradle\caches\transforms-2\files-2.1\b44f81451d97d2480d0b8aab8bd6c926\jetified-play-services-maps-17.0.0\AndroidManifest.xml:33:9-35:40
+62-->[com.google.android.gms:play-services-maps:17.0.0] C:\Users\Keneki\.gradle\caches\transforms-2\files-2.1\b44f81451d97d2480d0b8aab8bd6c926\jetified-play-services-maps-17.0.0\AndroidManifest.xml:33:9-35:40
 63            android:name="org.apache.http.legacy"
-63-->[com.google.android.gms:play-services-maps:17.0.0] C:\Users\Alpha\.gradle\caches\transforms-2\files-2.1\b44f81451d97d2480d0b8aab8bd6c926\jetified-play-services-maps-17.0.0\AndroidManifest.xml:34:13-50
+63-->[com.google.android.gms:play-services-maps:17.0.0] C:\Users\Keneki\.gradle\caches\transforms-2\files-2.1\b44f81451d97d2480d0b8aab8bd6c926\jetified-play-services-maps-17.0.0\AndroidManifest.xml:34:13-50
 64            android:required="false" />
-64-->[com.google.android.gms:play-services-maps:17.0.0] C:\Users\Alpha\.gradle\caches\transforms-2\files-2.1\b44f81451d97d2480d0b8aab8bd6c926\jetified-play-services-maps-17.0.0\AndroidManifest.xml:35:13-37
+64-->[com.google.android.gms:play-services-maps:17.0.0] C:\Users\Keneki\.gradle\caches\transforms-2\files-2.1\b44f81451d97d2480d0b8aab8bd6c926\jetified-play-services-maps-17.0.0\AndroidManifest.xml:35:13-37
 65
 66        <activity
-66-->[com.google.android.gms:play-services-base:17.0.0] C:\Users\Alpha\.gradle\caches\transforms-2\files-2.1\fa5423fd519c751ff38eb9c3cf1cbd89\jetified-play-services-base-17.0.0\AndroidManifest.xml:23:9-26:75
+66-->[com.google.android.gms:play-services-base:17.0.0] C:\Users\Keneki\.gradle\caches\transforms-2\files-2.1\fa5423fd519c751ff38eb9c3cf1cbd89\jetified-play-services-base-17.0.0\AndroidManifest.xml:23:9-26:75
 67            android:name="com.google.android.gms.common.api.GoogleApiActivity"
-67-->[com.google.android.gms:play-services-base:17.0.0] C:\Users\Alpha\.gradle\caches\transforms-2\files-2.1\fa5423fd519c751ff38eb9c3cf1cbd89\jetified-play-services-base-17.0.0\AndroidManifest.xml:24:13-79
+67-->[com.google.android.gms:play-services-base:17.0.0] C:\Users\Keneki\.gradle\caches\transforms-2\files-2.1\fa5423fd519c751ff38eb9c3cf1cbd89\jetified-play-services-base-17.0.0\AndroidManifest.xml:24:13-79
 68            android:exported="false"
-68-->[com.google.android.gms:play-services-base:17.0.0] C:\Users\Alpha\.gradle\caches\transforms-2\files-2.1\fa5423fd519c751ff38eb9c3cf1cbd89\jetified-play-services-base-17.0.0\AndroidManifest.xml:25:13-37
+68-->[com.google.android.gms:play-services-base:17.0.0] C:\Users\Keneki\.gradle\caches\transforms-2\files-2.1\fa5423fd519c751ff38eb9c3cf1cbd89\jetified-play-services-base-17.0.0\AndroidManifest.xml:25:13-37
 69            android:theme="@android:style/Theme.Translucent.NoTitleBar" />
-69-->[com.google.android.gms:play-services-base:17.0.0] C:\Users\Alpha\.gradle\caches\transforms-2\files-2.1\fa5423fd519c751ff38eb9c3cf1cbd89\jetified-play-services-base-17.0.0\AndroidManifest.xml:26:13-72
+69-->[com.google.android.gms:play-services-base:17.0.0] C:\Users\Keneki\.gradle\caches\transforms-2\files-2.1\fa5423fd519c751ff38eb9c3cf1cbd89\jetified-play-services-base-17.0.0\AndroidManifest.xml:26:13-72
 70
 71        <provider
-71-->[androidx.lifecycle:lifecycle-process:2.0.0] C:\Users\Alpha\.gradle\caches\transforms-2\files-2.1\e52e3a1877723941373b26f39df69f0f\jetified-lifecycle-process-2.0.0\AndroidManifest.xml:23:9-27:43
+71-->[androidx.lifecycle:lifecycle-process:2.0.0] C:\Users\Keneki\.gradle\caches\transforms-2\files-2.1\e52e3a1877723941373b26f39df69f0f\jetified-lifecycle-process-2.0.0\AndroidManifest.xml:23:9-27:43
 72            android:name="androidx.lifecycle.ProcessLifecycleOwnerInitializer"
-72-->[androidx.lifecycle:lifecycle-process:2.0.0] C:\Users\Alpha\.gradle\caches\transforms-2\files-2.1\e52e3a1877723941373b26f39df69f0f\jetified-lifecycle-process-2.0.0\AndroidManifest.xml:24:13-79
+72-->[androidx.lifecycle:lifecycle-process:2.0.0] C:\Users\Keneki\.gradle\caches\transforms-2\files-2.1\e52e3a1877723941373b26f39df69f0f\jetified-lifecycle-process-2.0.0\AndroidManifest.xml:24:13-79
 73            android:authorities="com.androiddevs.runningappyt.lifecycle-process"
-73-->[androidx.lifecycle:lifecycle-process:2.0.0] C:\Users\Alpha\.gradle\caches\transforms-2\files-2.1\e52e3a1877723941373b26f39df69f0f\jetified-lifecycle-process-2.0.0\AndroidManifest.xml:25:13-69
+73-->[androidx.lifecycle:lifecycle-process:2.0.0] C:\Users\Keneki\.gradle\caches\transforms-2\files-2.1\e52e3a1877723941373b26f39df69f0f\jetified-lifecycle-process-2.0.0\AndroidManifest.xml:25:13-69
 74            android:exported="false"
-74-->[androidx.lifecycle:lifecycle-process:2.0.0] C:\Users\Alpha\.gradle\caches\transforms-2\files-2.1\e52e3a1877723941373b26f39df69f0f\jetified-lifecycle-process-2.0.0\AndroidManifest.xml:26:13-37
+74-->[androidx.lifecycle:lifecycle-process:2.0.0] C:\Users\Keneki\.gradle\caches\transforms-2\files-2.1\e52e3a1877723941373b26f39df69f0f\jetified-lifecycle-process-2.0.0\AndroidManifest.xml:26:13-37
 75            android:multiprocess="true" />
-75-->[androidx.lifecycle:lifecycle-process:2.0.0] C:\Users\Alpha\.gradle\caches\transforms-2\files-2.1\e52e3a1877723941373b26f39df69f0f\jetified-lifecycle-process-2.0.0\AndroidManifest.xml:27:13-40
+75-->[androidx.lifecycle:lifecycle-process:2.0.0] C:\Users\Keneki\.gradle\caches\transforms-2\files-2.1\e52e3a1877723941373b26f39df69f0f\jetified-lifecycle-process-2.0.0\AndroidManifest.xml:27:13-40
 76    </application>
 77
 78</manifest>

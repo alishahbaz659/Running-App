@@ -26,8 +26,8 @@ public abstract class Hilt_MainActivity extends AppCompatActivity implements Gen
     _initHiltInternal();
   }
 
-  Hilt_MainActivity(int contentLayoutId) {
-    super(contentLayoutId);
+  Hilt_MainActivity(int arg0) {
+    super(arg0);
     _initHiltInternal();
   }
 
